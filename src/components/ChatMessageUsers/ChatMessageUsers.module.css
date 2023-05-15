@@ -1,0 +1,5 @@
+.wrapper_chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,6 +1,11 @@
 .profile_header{
     display: flex;
 }
-.sign_in_btn{
-    margin: 0 10px;
+.btn{
+    padding:12px 20px;
+    border:1px solid rgb(226, 228, 226);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px rgb(241, 239, 239);
+    font-size: 17px;
 }

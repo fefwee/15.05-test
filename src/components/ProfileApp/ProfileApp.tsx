@@ -9,7 +9,7 @@ export const ProfileApp:React.FC = () => {
 
         <div className={style.profile_header}>
           
-            <div><button className={style.sign_in_btn}>
+            <div><button className={style.btn}>
                 Sign In
                 </button></div>
         </div>

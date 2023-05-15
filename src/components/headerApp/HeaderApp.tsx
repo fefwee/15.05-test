@@ -1,4 +1,3 @@
-import React from "react";
 import { ProfileApp } from "../ProfileApp/ProfileApp";
 import { NewChat } from "../NewChat/NewChat";
 import style from './HeaderApp.module.css'
