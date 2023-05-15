@@ -1,11 +1,71 @@
-.profile_header{
+.profile_header {
     display: flex;
 }
-.btn{
-    padding:12px 20px;
-    border:1px solid rgb(226, 228, 226);
+
+.btn {
+    padding: 12px 20px;
+    border: 1px solid rgb(226, 228, 226);
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 1px 1px rgb(241, 239, 239);
     font-size: 17px;
+}
+
+
+.modal {
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+ 
+}
+
+
+.modal_window {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(172, 169, 169);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 228, 231);
+    opacity: .8;
+}
+
+.modal_window input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.modal_window input:focus {
+    outline: none;
+}
+
+.modal_window button {
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+.exit_Btn{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.exit_Btn img{
+    width: 35px;
+    height: 35px;
 }
